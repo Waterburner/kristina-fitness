@@ -21,7 +21,7 @@ export default function Navbar() {
                                     <li>About me / Про мене</li>
                                 </NavLink>
                                 <NavLink to="/pages/contacts">
-                                    <li>Contacts / контакти</li>
+                                    <li>Contacts / Kонтакти</li>
                                 </NavLink>
                             </ul>
                         </div>
