@@ -9,20 +9,27 @@ export default function Homepage() {
                         <h2>Homepage</h2>
                     </div>
                 </div>
-                <div className="photo-section-wrapper">
-                    <div className="photo-section">
+                <div className="section-wrapper">
+                    <div className="photo-section section">
                         <>
                             big photo on the background with or without some
                             text on top
                         </>
                     </div>
                 </div>
-                <div className="options-section-wrapper">
-                    <div className="options-section">
+                <div className="section-wrapper">
+                    <div className="options-section section">
                         <>little photo with hover effect</>
                         <>little photo with hover effect</>
                         <>little photo with hover effect</>
                         <>little photo with hover effect</>
+                    </div>
+                </div>
+                <div className="section-wrapper">
+                    <div className="section review-section">
+                        <div className="reviews">Review#1</div>
+                        <div className="reviews">Review#2</div>
+                        <div className="reviews">Review#3</div>
                     </div>
                 </div>
             </div>
