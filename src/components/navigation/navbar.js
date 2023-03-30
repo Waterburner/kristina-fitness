@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="left">
                     <div className="burger-wrapper">
-                        <div className="burger">=</div>
+                        <div className="burger">testing=</div>
                     </div>
                     <div className="navlist-wrapper">
                         <div className="navlist">
