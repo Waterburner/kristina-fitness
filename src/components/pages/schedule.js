@@ -2,13 +2,13 @@ import React from "react";
 
 export default function SchedulePage() {
     return (
-        <div className="Schedule-wrapper">
-            <div className="schedule">
+        <div className="schedule-wrapper page-wrapper">
+            <div className="schedule page">
                 <div className="section-wrapper">
                     <div className="section">cool picture</div>
                 </div>
-                <div className="schedule-description-wrapper">
-                    <div className="schedule-description description">
+                <div className="section-wrapper section-wrapper schedule-description-wrapper">
+                    <div className="section schedule-description description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Dignissimos quisquam repudiandae accusantium
                         necessitatibus, dolore perspiciatis eum facere ea natus
@@ -30,8 +30,55 @@ export default function SchedulePage() {
                         expedita hic voluptates vitae!
                     </div>
                 </div>
-                <div className="schedule-photo-wrapper">
-                    <div className="schedule-photo">cool photo</div>
+                <div className="section-wrapper schedule-wrapper">
+                    <div className="section schedule">
+                        <div className="days">
+                            <ul>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                                <li className="weekday">
+                                    <div className="hours">
+                                        <div>12:00-14:00</div>
+                                        <div>18:00-20:00</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
