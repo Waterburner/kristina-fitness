@@ -9,9 +9,9 @@ export default class App extends Component {
     render() {
         return (
             <div className="app">
-                <Navbar />
-
                 <Router>
+                    <Navbar />
+
                     <div className="app-wrapper">
                         <Routes>
                             <Route exact path="/" element={<Homepage />} />
