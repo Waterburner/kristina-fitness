@@ -1,5 +1,23 @@
 // navigation
 
 .navbar-wrapper {
-    background-color: gray;
+    background-color: $navbar-background;
+
+    padding: 10px;
+
+    .navbar {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        .left {
+            .navlist-wrapper {
+                position: absolute;
+                // visibility: hidden;
+                width: 100vw;
+                background-color: $navbar-background;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
 }

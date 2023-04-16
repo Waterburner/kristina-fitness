@@ -33,12 +33,12 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                <div className="center"></div>
-                <div className="right">
+                <div className="center">
                     <div className="logo-wrapper">
                         <div className="logo">LOGO</div>
                     </div>
                 </div>
+                <div className="right"></div>
             </div>
         </div>
     );
