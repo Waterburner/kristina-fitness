@@ -25,20 +25,35 @@ export default function Navbar() {
                                     className="navlink"
                                     to="/pages/schedule"
                                 >
-                                    <li>Schedule / Розклад тренувань</li>
+                                    <li className="english_language">
+                                        Schedule
+                                    </li>
+                                    <li className="ukrainian_language">
+                                        Розклад тренувань
+                                    </li>
                                 </NavLink>
 
                                 <NavLink
                                     className="navlink"
                                     to="/pages/aboutme"
                                 >
-                                    <li>About me / Про мене</li>
+                                    <li className="english_language">
+                                        About me
+                                    </li>
+                                    <li className="ukrainian_language">
+                                        Про мене
+                                    </li>
                                 </NavLink>
                                 <NavLink
                                     className="navlink"
                                     to="/pages/contacts"
                                 >
-                                    <li>Contacts / Kонтакти</li>
+                                    <li className="english_language">
+                                        Contacts
+                                    </li>
+                                    <li className="ukrainian_language">
+                                        Kонтакти
+                                    </li>
                                 </NavLink>
                             </ul>
                         </div>
