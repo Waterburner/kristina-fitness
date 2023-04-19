@@ -1,0 +1,16 @@
+// homepage
+
+$assetPath: "../assets/";
+$main-photo-section: "#{$assetPath}kristina_main.jpg";
+
+.homepage-wrapper {
+    .homepage {
+        .section-wrapper {
+            .photo-section {
+                background: url($main-photo-section) no-repeat top center;
+                background-size: cover;
+                height: 500px;
+            }
+        }
+    }
+}
