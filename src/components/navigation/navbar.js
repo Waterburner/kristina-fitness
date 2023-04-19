@@ -19,26 +19,33 @@ export default function Navbar() {
                     <div className="navlist-wrapper">
                         <div className="navlist">
                             <ul>
-                                <NavLink to="/pages/schedule">
+                                <NavLink
+                                    className="navlink"
+                                    to="/pages/schedule"
+                                >
                                     <li>Schedule / Розклад тренувань</li>
                                 </NavLink>
 
-                                <NavLink to="/pages/aboutme">
+                                <NavLink
+                                    className="navlink"
+                                    to="/pages/aboutme"
+                                >
                                     <li>About me / Про мене</li>
                                 </NavLink>
-                                <NavLink to="/pages/contacts">
+                                <NavLink
+                                    className="navlink"
+                                    to="/pages/contacts"
+                                >
                                     <li>Contacts / Kонтакти</li>
                                 </NavLink>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className="center">
-                    <div className="logo-wrapper">
-                        <div className="logo">LOGO</div>
-                    </div>
+
+                <div className="right">
+                    <div className="logo">LOGO</div>
                 </div>
-                <div className="right"></div>
             </div>
         </div>
     );
