@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="left">
                     <input type="checkbox" id="btnControl" />
-                    <label className="btn burger-wrapper" for="btnControl">
+                    <label className="btn burger-wrapper" htmlFor="btnControl">
                         <div className="burger">
                             {/* hamburger icon */}
                             <FontAwesomeIcon icon={faBars} />
