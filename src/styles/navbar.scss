@@ -1,0 +1,56 @@
+// navigation
+
+.navbar-wrapper {
+    background-color: $navbar-background;
+
+    padding: 10px;
+
+    .navbar {
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        .left {
+            .burger {
+                // font-size: 1.5em;
+                // padding-left: 10px;
+            }
+            .navlist-wrapper {
+                top: 20vh;
+                position: absolute;
+                visibility: hidden;
+                width: 100vw;
+                background-color: $navbar-background;
+                margin: 0;
+                padding: 0;
+                left: 0;
+
+                .navlist {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    ul {
+                        padding: 0;
+                        margin: 0;
+
+                        li {
+                            padding: 5px 0;
+                            width: 100%;
+                            list-style: none;
+                            float: left;
+
+                            &:hover {
+                                background-color: $navbar-navlist-background;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
