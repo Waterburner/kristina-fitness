@@ -12,17 +12,15 @@ $main-photo-section: "#{$assetPath}kristina_main.jpg";
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                color: white;
+
+                height: 500px;
             }
 
             .photo-section {
-                background: linear-gradient(
-                        rgba(0, 0, 0, 0.6),
-                        rgba(0, 0, 0, 0.6)
-                    ),
+                color: white;
+                background: $darken-the-image,
                     url($main-photo-section) no-repeat top center;
                 background-size: cover;
-                height: 500px;
             }
         }
     }
