@@ -19,7 +19,7 @@
             .navlist-wrapper {
                 top: 20vh;
                 position: absolute;
-                // visibility: hidden;
+                visibility: hidden;
                 width: 100vw;
                 background-color: $navbar-background;
                 margin: 0;
@@ -42,6 +42,7 @@
                             padding: 5px 0;
                             width: 100%;
                             list-style: none;
+                            float: left;
 
                             &:hover {
                                 background-color: $navbar-navlist-background;
