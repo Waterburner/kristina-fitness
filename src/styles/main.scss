@@ -27,7 +27,18 @@ NavLink {
     color: black;
 }
 
+.hidden-style {
+    display: none;
+}
 // END OF common
+
+// language
+
+.ukrainian_language {
+    display: none;
+}
+
+// end of language
 
 @import "navbar.scss";
 
