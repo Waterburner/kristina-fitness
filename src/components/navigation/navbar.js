@@ -10,12 +10,14 @@ export default function Navbar() {
         <div className="navbar-wrapper">
             <div className="navbar">
                 <div className="left">
-                    <div className="burger-wrapper">
+                    <input type="checkbox" id="btnControl" />
+                    <label className="btn burger-wrapper" for="btnControl">
                         <div className="burger">
                             {/* hamburger icon */}
                             <FontAwesomeIcon icon={faBars} />
                         </div>
-                    </div>
+                    </label>
+
                     <div className="navlist-wrapper">
                         <div className="navlist">
                             <ul>
