@@ -44,7 +44,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="right">
-                    <div className="logo">LOGO</div>
+                    <div className="logo">Kristina Fitness</div>
                 </div>
             </div>
         </div>
