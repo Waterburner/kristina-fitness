@@ -6,7 +6,7 @@ export default function Homepage() {
             <div className="homepage">
                 <div className="title-wrapper">
                     <div className="title">
-                        <h2>Homepage</h2>
+                        <h2>Kristina Fitness Club</h2>
                     </div>
                 </div>
                 <div className="section-wrapper">
