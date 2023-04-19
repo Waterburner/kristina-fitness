@@ -6,14 +6,38 @@ export default function Homepage() {
             <div className="homepage">
                 <div className="title-wrapper">
                     <div className="title">
-                        <h2>Kristina Fitness Club</h2>
+                        <h2 className="english_language">
+                            Kristina Fitness Club
+                        </h2>
+                        <h2 className="ukrainian_language">
+                            Крістіна Фітнес клуб
+                        </h2>
                     </div>
                 </div>
                 <div className="section-wrapper">
                     <div className="photo-section section">
                         <>
-                            big photo on the background with or without some
-                            text on top
+                            <>
+                                <h3 className="photo-title english_language">
+                                    Kristina Online/Offline trainer <b />
+                                </h3>
+                                <h3 className="photo-title ukrainian_language">
+                                    Крістіна тренер онлайн/офлайн
+                                </h3>
+                            </>
+                            <>
+                                <p className="photo-description english_language">
+                                    Training without damaging your health.
+                                    Educational and reabilitational. Over 200
+                                    satisfied clients
+                                </p>
+
+                                <p className="photo-description ukrainian_language">
+                                    тут про тренування без шкоди здоров’ю!
+                                    Освіта-реабілітолог | Майстер спорту 🇺🇦 8
+                                    років досвіду | 200+ задоволених клієнтів
+                                </p>
+                            </>
                         </>
                     </div>
                 </div>
