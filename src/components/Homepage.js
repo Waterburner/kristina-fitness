@@ -43,10 +43,10 @@ export default function Homepage() {
                 </div>
                 <div className="section-wrapper">
                     <div className="options-section section">
-                        <>little photo with hover effect</>
-                        <>little photo with hover effect</>
-                        <>little photo with hover effect</>
-                        <>little photo with hover effect</>
+                        <div className="options-photos photo1"></div>
+                        <div className="options-photos photo2"></div>
+                        <div className="options-photos photo3"></div>
+                        <div className="options-photos photo4"></div>
                     </div>
                 </div>
                 <div className="section-wrapper">
