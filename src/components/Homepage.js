@@ -1,5 +1,7 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 export default function Homepage() {
     return (
         <div className="homepage-wrapper">
@@ -38,50 +40,58 @@ export default function Homepage() {
                 <div className="section-wrapper">
                     <div className="options-section section">
                         <div className="options-photos photo1">
-                            <p className="photo-description english_language">
-                                About Kristina
-                            </p>
-                            <p className="photo-description ukrainian_language">
-                                Про Крістіну
-                            </p>
-                            <p className="photo-sub-description english_language">
-                                Achivments, education, experience…
-                            </p>
+                            <NavLink className="navlink" to="/pages/aboutme">
+                                <p className="photo-description english_language">
+                                    About Kristina
+                                </p>
+                                <p className="photo-description ukrainian_language">
+                                    Про Крістіну
+                                </p>
+                                <p className="photo-sub-description english_language">
+                                    Achivments, education, experience…
+                                </p>
+                            </NavLink>
                         </div>
                         <div className="options-photos photo2">
-                            <p className="photo-description english_language">
-                                Schedule
-                            </p>
-                            <p className="photo-description ukrainian_language">
-                                Розклад занять
-                            </p>
-                            <p className="photo-sub-description english_language">
-                                When, where and how
-                            </p>
+                            <NavLink className="navlink" to="/pages/schedule">
+                                <p className="photo-description english_language">
+                                    Schedule
+                                </p>
+                                <p className="photo-description ukrainian_language">
+                                    Розклад занять
+                                </p>
+                                <p className="photo-sub-description english_language">
+                                    When, where and how
+                                </p>
+                            </NavLink>
                         </div>
                         <div className="options-photos photo3">
-                            <p className="photo-description english_language">
-                                Blog
-                            </p>
-                            <p className="photo-description ukrainian_language">
-                                Блог
-                            </p>
-                            <p className="photo-sub-description english_language">
-                                Motivation, diet, health choices
-                            </p>
+                            <NavLink className="navlink" to="/blog">
+                                <p className="photo-description english_language">
+                                    Blog
+                                </p>
+                                <p className="photo-description ukrainian_language">
+                                    Блог
+                                </p>
+                                <p className="photo-sub-description english_language">
+                                    Motivation, diet, health choices
+                                </p>
+                            </NavLink>
                         </div>
                         <div className="options-photos photo4">
-                            <p className="photo-description english_language">
-                                Contacts
-                            </p>
-                            <p className="photo-description ukrainian_language">
-                                Контакти
-                            </p>
-                            <p className="photo-sub-description english_language">
-                                Phone: 123 546 7890
-                                <br />
-                                email and physical address
-                            </p>
+                            <NavLink className="navlink" to="/pages/contacts">
+                                <p className="photo-description english_language">
+                                    Contacts
+                                </p>
+                                <p className="photo-description ukrainian_language">
+                                    Контакти
+                                </p>
+                                <p className="photo-sub-description english_language">
+                                    Phone: 123 546 7890
+                                    <br />
+                                    email and physical address
+                                </p>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
