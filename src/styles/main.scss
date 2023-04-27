@@ -4,8 +4,17 @@
 $navbar-background: gray;
 $navbar-navlist-background: lightgray;
 
+$photo-text-color: white;
+$photo-title-color: white;
+$photo-description-color: white;
+$photo-sub-description-color: whitesmoke;
+
 // misc variables
 $darken-the-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+$pre-hover-darken-the-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+);
 
 // common
 
