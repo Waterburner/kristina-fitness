@@ -16,29 +16,23 @@ export default function Homepage() {
                 </div>
                 <div className="section-wrapper">
                     <div className="photo-section section">
-                        <>
-                            <>
-                                <h3 className="photo-title english_language">
-                                    Kristina Online/Offline trainer <b />
-                                </h3>
-                                <h3 className="photo-title ukrainian_language">
-                                    Крістіна тренер онлайн/офлайн
-                                </h3>
-                            </>
-                            <>
-                                <p className="photo-description english_language">
-                                    Training without damaging your health.
-                                    Educational and reabilitational. Over 200
-                                    satisfied clients
-                                </p>
+                        <h3 className="photo-title english_language">
+                            Kristina Online/Offline trainer <b />
+                        </h3>
+                        <h3 className="photo-title ukrainian_language">
+                            Крістіна тренер онлайн/офлайн
+                        </h3>
 
-                                <p className="photo-description ukrainian_language">
-                                    тут про тренування без шкоди здоров’ю!
-                                    Освіта-реабілітолог | Майстер спорту 🇺🇦 8
-                                    років досвіду | 200+ задоволених клієнтів
-                                </p>
-                            </>
-                        </>
+                        <p className="photo-description english_language">
+                            Training without damaging your health. Educational
+                            and reabilitational. Over 200 satisfied clients
+                        </p>
+
+                        <p className="photo-description ukrainian_language">
+                            тут про тренування без шкоди здоров’ю!
+                            Освіта-реабілітолог | Майстер спорту 🇺🇦 8 років
+                            досвіду | 200+ задоволених клієнтів
+                        </p>
                     </div>
                 </div>
                 <div className="section-wrapper">
@@ -49,6 +43,9 @@ export default function Homepage() {
                             </p>
                             <p className="photo-description ukrainian_language">
                                 Про Крістіну
+                            </p>
+                            <p className="photo-sub-description english_language">
+                                Achivments, education, experience…
                             </p>
                         </div>
                         <div className="options-photos photo2">
@@ -64,7 +61,7 @@ export default function Homepage() {
                                 Blog
                             </p>
                             <p className="photo-description ukrainian_language">
-                                Blog
+                                Блог
                             </p>
                         </div>
                         <div className="options-photos photo4">
@@ -72,7 +69,7 @@ export default function Homepage() {
                                 Contacts
                             </p>
                             <p className="photo-description ukrainian_language">
-                                Contacts
+                                Контакти
                             </p>
                         </div>
                     </div>
