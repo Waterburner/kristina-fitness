@@ -55,6 +55,10 @@ export default function Navbar() {
                                         Kонтакти
                                     </li>
                                 </NavLink>
+                                <NavLink className="navlink" to="/blog">
+                                    <li className="english_language">Blog</li>
+                                    <li className="ukrainian_language">Блог</li>
+                                </NavLink>
                             </ul>
                         </div>
                     </div>
