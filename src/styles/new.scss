@@ -47,10 +47,6 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                     padding-top: 10px;
                 }
 
-                .options-photos {
-                    height: 50vw;
-                }
-
                 .photo1 {
                     background: $pre-hover-darken-the-image,
                         url($options-photo1) no-repeat top center;
@@ -72,8 +68,12 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                     background-size: cover;
                 }
 
-                &:hover {
-                    background-color: $darken-the-image;
+                .options-photos {
+                    height: 50vw;
+
+                    // &:hover {
+
+                    // }
                 }
             }
 

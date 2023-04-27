@@ -40,7 +40,7 @@ export default function Homepage() {
                 <div className="section-wrapper">
                     <div className="options-section section">
                         <NavLink className="navlink" to="/pages/aboutme">
-                            <div className="options-photos photo1">
+                            <div className="photo1 options-photos">
                                 <p className="photo-description english_language">
                                     About Kristina
                                 </p>
