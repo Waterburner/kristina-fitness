@@ -16,7 +16,9 @@
     padding: 10px;
 
     .navbar {
-        height: 20vh;
+        min-height: 50px;
+        max-height: 100px;
+        height: 10vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
