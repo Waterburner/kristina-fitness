@@ -50,6 +50,9 @@ export default function Homepage() {
                                 <p className="photo-sub-description english_language">
                                     Achivments, education, experience…
                                 </p>
+                                <p className="photo-sub-description ukrainian_language">
+                                    Досягнення, навчання, досвід
+                                </p>
                             </NavLink>
                         </div>
                         <div className="options-photos photo2">
@@ -62,6 +65,9 @@ export default function Homepage() {
                                 </p>
                                 <p className="photo-sub-description english_language">
                                     When, where and how
+                                </p>
+                                <p className="photo-sub-description ukrainian_language">
+                                    Коли, де і як відбуваються тренування
                                 </p>
                             </NavLink>
                         </div>
@@ -76,6 +82,9 @@ export default function Homepage() {
                                 <p className="photo-sub-description english_language">
                                     Motivation, diet, health choices
                                 </p>
+                                <p className="photo-sub-description ukrainian_language">
+                                    Мотивація, діяти та про здоров'я
+                                </p>
                             </NavLink>
                         </div>
                         <div className="options-photos photo4">
@@ -89,7 +98,10 @@ export default function Homepage() {
                                 <p className="photo-sub-description english_language">
                                     Phone: 123 546 7890
                                     <br />
-                                    email and physical address
+                                    How to connect
+                                </p>
+                                <p className="photo-sub-description ukrainian_language">
+                                    Як звязатись
                                 </p>
                             </NavLink>
                         </div>
