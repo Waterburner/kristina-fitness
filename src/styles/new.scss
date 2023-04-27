@@ -9,6 +9,10 @@ $options-photo3: "#{$assetPath}Kristina000_n.png";
 $options-photo4: "#{$assetPath}Kristina4681_n.png";
 
 .homepage-wrapper {
+    .photo-description {
+        color: $photo-description-color;
+    }
+
     .photo-sub-description {
         font-size: 0.7em;
         color: $photo-sub-description-color;
