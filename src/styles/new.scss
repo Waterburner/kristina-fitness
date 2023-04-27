@@ -9,6 +9,11 @@ $options-photo3: "#{$assetPath}Kristina000_n.png";
 $options-photo4: "#{$assetPath}Kristina4681_n.png";
 
 .homepage-wrapper {
+    .photo-sub-description {
+        font-size: 0.7em;
+        color: $photo-sub-description-color;
+    }
+
     .homepage {
         .section-wrapper {
             .section {
@@ -17,47 +22,42 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-
-                height: 500px;
+                color: $photo-text-color;
             }
 
             .photo-section {
-                color: white;
+                height: 700px;
                 background: $darken-the-image,
                     url($main-photo-section) no-repeat top center;
                 background-size: cover;
             }
 
             .options-section {
-                display: flex;
-                flex-direction: column;
-
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+                padding: 5px;
                 .options-photos {
-                    width: 100%;
-                    min-height: 200px;
+                    height: 50vw;
                 }
 
                 .photo1 {
-                    color: white;
-                    background: $darken-the-image,
+                    background: $pre-hover-darken-the-image,
                         url($options-photo1) no-repeat top center;
                     background-size: cover;
                 }
                 .photo2 {
-                    color: white;
-                    background: $darken-the-image,
+                    background: $pre-hover-darken-the-image,
                         url($options-photo2) no-repeat top center;
                     background-size: cover;
                 }
                 .photo3 {
-                    color: white;
-                    background: $darken-the-image,
+                    background: $pre-hover-darken-the-image,
                         url($options-photo3) no-repeat top center;
                     background-size: cover;
                 }
                 .photo4 {
-                    color: white;
-                    background: $darken-the-image,
+                    background: $pre-hover-darken-the-image,
                         url($options-photo4) no-repeat top center;
                     background-size: cover;
                 }
