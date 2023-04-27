@@ -55,6 +55,9 @@ export default function Homepage() {
                             <p className="photo-description ukrainian_language">
                                 Розклад занять
                             </p>
+                            <p className="photo-sub-description english_language">
+                                When, where and how
+                            </p>
                         </div>
                         <div className="options-photos photo3">
                             <p className="photo-description english_language">
@@ -63,6 +66,9 @@ export default function Homepage() {
                             <p className="photo-description ukrainian_language">
                                 Блог
                             </p>
+                            <p className="photo-sub-description english_language">
+                                Motivation, diet, health choices
+                            </p>
                         </div>
                         <div className="options-photos photo4">
                             <p className="photo-description english_language">
@@ -70,6 +76,11 @@ export default function Homepage() {
                             </p>
                             <p className="photo-description ukrainian_language">
                                 Контакти
+                            </p>
+                            <p className="photo-sub-description english_language">
+                                Phone: 123 546 7890
+                                <br />
+                                email and physical address
                             </p>
                         </div>
                     </div>
