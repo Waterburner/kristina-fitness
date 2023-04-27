@@ -43,10 +43,38 @@ export default function Homepage() {
                 </div>
                 <div className="section-wrapper">
                     <div className="options-section section">
-                        <div className="options-photos photo1"></div>
-                        <div className="options-photos photo2"></div>
-                        <div className="options-photos photo3"></div>
-                        <div className="options-photos photo4"></div>
+                        <div className="options-photos photo1">
+                            <p className="photo-description english_language">
+                                About Kristina
+                            </p>
+                            <p className="photo-description ukrainian_language">
+                                Про Крістіну
+                            </p>
+                        </div>
+                        <div className="options-photos photo2">
+                            <p className="photo-description english_language">
+                                Schedule
+                            </p>
+                            <p className="photo-description ukrainian_language">
+                                Розклад занять
+                            </p>
+                        </div>
+                        <div className="options-photos photo3">
+                            <p className="photo-description english_language">
+                                Blog
+                            </p>
+                            <p className="photo-description ukrainian_language">
+                                Blog
+                            </p>
+                        </div>
+                        <div className="options-photos photo4">
+                            <p className="photo-description english_language">
+                                Contacts
+                            </p>
+                            <p className="photo-description ukrainian_language">
+                                Contacts
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className="section-wrapper">
