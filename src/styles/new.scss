@@ -3,6 +3,11 @@
 $assetPath: "../assets/";
 $main-photo-section: "#{$assetPath}kristina_main.jpg";
 
+$options-photo1: "#{$assetPath}Kristina22755514368_n.png";
+$options-photo2: "#{$assetPath}Kristina10208_n.png";
+$options-photo3: "#{$assetPath}Kristina000_n.png";
+$options-photo4: "#{$assetPath}Kristina4681_n.png";
+
 .homepage-wrapper {
     .homepage {
         .section-wrapper {
@@ -21,6 +26,41 @@ $main-photo-section: "#{$assetPath}kristina_main.jpg";
                 background: $darken-the-image,
                     url($main-photo-section) no-repeat top center;
                 background-size: cover;
+            }
+
+            .options-section {
+                display: flex;
+                flex-direction: column;
+
+                .options-photos {
+                    width: 100%;
+                    min-height: 200px;
+                }
+
+                .photo1 {
+                    color: white;
+                    background: $darken-the-image,
+                        url($options-photo1) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo2 {
+                    color: white;
+                    background: $darken-the-image,
+                        url($options-photo2) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo3 {
+                    color: white;
+                    background: $darken-the-image,
+                        url($options-photo3) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo4 {
+                    color: white;
+                    background: $darken-the-image,
+                        url($options-photo4) no-repeat top center;
+                    background-size: cover;
+                }
             }
         }
     }
