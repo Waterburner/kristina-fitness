@@ -41,6 +41,12 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                 grid-template-columns: 1fr 1fr;
                 gap: 5px;
                 padding: 5px;
+
+                p {
+                    margin-top: 0;
+                    padding-top: 10px;
+                }
+
                 .options-photos {
                     height: 50vw;
                 }
@@ -64,6 +70,10 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                     background: $pre-hover-darken-the-image,
                         url($options-photo4) no-repeat top center;
                     background-size: cover;
+                }
+
+                &:hover {
+                    background-color: $darken-the-image;
                 }
             }
 

@@ -39,8 +39,8 @@ export default function Homepage() {
                 </div>
                 <div className="section-wrapper">
                     <div className="options-section section">
-                        <div className="options-photos photo1">
-                            <NavLink className="navlink" to="/pages/aboutme">
+                        <NavLink className="navlink" to="/pages/aboutme">
+                            <div className="options-photos photo1">
                                 <p className="photo-description english_language">
                                     About Kristina
                                 </p>
@@ -53,10 +53,10 @@ export default function Homepage() {
                                 <p className="photo-sub-description ukrainian_language">
                                     Досягнення, навчання, досвід
                                 </p>
-                            </NavLink>
-                        </div>
-                        <div className="options-photos photo2">
-                            <NavLink className="navlink" to="/pages/schedule">
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/pages/schedule">
+                            <div className="options-photos photo2">
                                 <p className="photo-description english_language">
                                     Schedule
                                 </p>
@@ -69,10 +69,10 @@ export default function Homepage() {
                                 <p className="photo-sub-description ukrainian_language">
                                     Коли, де і як відбуваються тренування
                                 </p>
-                            </NavLink>
-                        </div>
-                        <div className="options-photos photo3">
-                            <NavLink className="navlink" to="/blog">
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/blog">
+                            <div className="options-photos photo3">
                                 <p className="photo-description english_language">
                                     Blog
                                 </p>
@@ -85,10 +85,10 @@ export default function Homepage() {
                                 <p className="photo-sub-description ukrainian_language">
                                     Мотивація, діяти та про здоров'я
                                 </p>
-                            </NavLink>
-                        </div>
-                        <div className="options-photos photo4">
-                            <NavLink className="navlink" to="/pages/contacts">
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/pages/contacts">
+                            <div className="options-photos photo4">
                                 <p className="photo-description english_language">
                                     Contacts
                                 </p>
@@ -103,8 +103,8 @@ export default function Homepage() {
                                 <p className="photo-sub-description ukrainian_language">
                                     Як звязатись
                                 </p>
-                            </NavLink>
-                        </div>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
                 <div className="section-wrapper">
