@@ -65,7 +65,9 @@ export default function Navbar() {
                 </div>
 
                 <div className="right">
-                    <div className="logo">Kristina Fitness</div>
+                    <NavLink className="navlink" to="/">
+                        <div className="logo">Kristina Fitness</div>
+                    </NavLink>
                 </div>
             </div>
         </div>
