@@ -109,9 +109,44 @@ export default function Homepage() {
                 </div>
                 <div className="section-wrapper">
                     <div className="section review-section">
-                        <div className="reviews">Review#1</div>
-                        <div className="reviews">Review#2</div>
-                        <div className="reviews">Review#3</div>
+                        <div className="reviews">
+                            <h3 className="review-title">Name</h3>
+                            <p className="review-description">
+                                Review: Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Cupiditate laboriosam debitis
+                                dolor et cumque ullam fuga suscipit iusto porro
+                                fugiat dicta, quod, neque velit molestiae
+                                obcaecati quisquam reprehenderit ad quos magnam!
+                                Quos?
+                            </p>
+                        </div>
+                        <div className="reviews">
+                            <h3 className="review-title">Name</h3>
+                            <p className="review-description">
+                                Review: Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum itaque, ipsum minima
+                                ut natus commodi, fugiat quidem id incidunt
+                                accusamus hic inventore alias animi!
+                            </p>
+                        </div>
+                        <div className="reviews">
+                            <h3 className="review-title">Name</h3>
+                            <p className="review-description">
+                                Review: Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quod adipisci eaque, at
+                                explicabo blanditiis nulla necessitatibus nisi
+                                cum.
+                            </p>
+                        </div>
+
+                        <div className="reviews">
+                            <NavLink
+                                className="navlink reviews-link"
+                                to="/reviews/"
+                            >
+                                <h3 className="more-reviews">More reviews…</h3>
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,6 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                color: $photo-text-color;
             }
 
             .photo-section {
@@ -34,6 +33,7 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                 background: $darken-the-image,
                     url($main-photo-section) no-repeat top center;
                 background-size: cover;
+                color: $photo-title-color;
             }
 
             .options-section {
@@ -64,6 +64,21 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                     background: $pre-hover-darken-the-image,
                         url($options-photo4) no-repeat top center;
                     background-size: cover;
+                }
+            }
+
+            .review-section {
+                background-color: $navbar-background;
+                padding-top: 15px;
+                .reviews {
+                    padding-top: 10px;
+                    width: 98%;
+                    margin: 2px;
+
+                    h3,
+                    p {
+                        margin: 5px;
+                    }
                 }
             }
         }
