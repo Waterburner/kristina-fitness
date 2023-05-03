@@ -98,10 +98,18 @@ export default function Homepage() {
                                 <p className="photo-sub-description english_language">
                                     Phone: 123 546 7890
                                     <br />
+                                    email and address
+                                    <br />
+                                    <br />
                                     How to connect
                                 </p>
                                 <p className="photo-sub-description ukrainian_language">
-                                    Як звязатись
+                                    телефон: 123 456 7890
+                                    <br />
+                                    емейл та адреса
+                                    <br />
+                                    <br />
+                                    Інформація про зв'язок
                                 </p>
                             </div>
                         </NavLink>
