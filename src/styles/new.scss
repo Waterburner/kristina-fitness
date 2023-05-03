@@ -38,7 +38,7 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
 
             .options-section {
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr;
                 gap: 5px;
                 padding: 5px;
 
@@ -69,8 +69,10 @@ $options-photo4: "#{$assetPath}Kristina4681_n.png";
                 }
 
                 .options-photos {
-                    height: 50vw;
-
+                    height: 100vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     // &:hover {
 
                     // }
