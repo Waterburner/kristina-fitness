@@ -9,7 +9,6 @@ export default function Footer() {
                 </div>
                 <div className="center-wrapper">
                     <div className="center copyright">
-                        {" "}
                         2023 Oleh Kovelskyi. All rights reserved
                     </div>
                 </div>
