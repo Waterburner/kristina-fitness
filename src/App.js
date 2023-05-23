@@ -24,7 +24,7 @@ export default class App extends Component {
                                 path="/pages/schedule"
                                 element={<Schedule />}
                             />
-                            <Route path="*" elesemt={<NoMatch />} />
+                            <Route path="*" element={<NoMatch />} />
                         </Routes>
 
                         <Footer />
