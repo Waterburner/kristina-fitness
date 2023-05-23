@@ -7,6 +7,7 @@ import Navbar from "./components/navigation/Navbar";
 import About from "./components/pages/About";
 import Schedule from "./components/pages/Schedule";
 import NoMatch from "./components/NoMatch";
+import Footer from "./components/Footer";
 
 export default class App extends Component {
     render() {
@@ -25,6 +26,8 @@ export default class App extends Component {
                             />
                             <Route path="*" elesemt={<NoMatch />} />
                         </Routes>
+
+                        <Footer />
                     </div>
                 </Router>
             </div>
