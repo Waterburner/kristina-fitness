@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import Navbar from "./components/navigation/Navbar";
 import About from "./components/pages/About";
+import Schedule from "./components/pages/Schedule";
 import NoMatch from "./components/NoMatch";
 
 export default class App extends Component {
@@ -18,6 +19,10 @@ export default class App extends Component {
                         <Routes>
                             <Route exact path="/" element={<Homepage />} />
                             <Route path="/pages/aboutme" element={<About />} />
+                            <Route
+                                path="/pages/schedule"
+                                element={<Schedule />}
+                            />
                             <Route path="*" elesemt={<NoMatch />} />
                         </Routes>
                     </div>
