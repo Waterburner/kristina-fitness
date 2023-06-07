@@ -19,6 +19,11 @@ export default class App extends Component {
                     <div className="app-wrapper">
                         <Routes>
                             <Route exact path="/" element={<Homepage />} />
+                            <Route
+                                exact
+                                path="/kristina-fitness"
+                                element={<Homepage />}
+                            />
                             <Route path="/pages/aboutme" element={<About />} />
                             <Route
                                 path="/pages/schedule"
