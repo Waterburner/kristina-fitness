@@ -65,7 +65,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="right">
-                    <NavLink className="navlink" to="/">
+                    <NavLink className="navlink" to="/kristina-fitness">
                         <div className="logo">Kristina Fitness</div>
                     </NavLink>
                 </div>
