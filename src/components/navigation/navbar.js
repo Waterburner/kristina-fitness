@@ -23,6 +23,16 @@ export default function Navbar() {
                             <ul>
                                 <NavLink
                                     className="navlink"
+                                    to="/kristina-fitness"
+                                >
+                                    <li className="english_language">Home</li>
+                                    <li className="ukrainian_language">
+                                        На головну
+                                    </li>
+                                </NavLink>
+
+                                <NavLink
+                                    className="navlink"
                                     to="/pages/schedule"
                                 >
                                     <li className="english_language">
