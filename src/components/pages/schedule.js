@@ -9,47 +9,14 @@ export default function SchedulePage() {
                 </div>
                 <div className="section-wrapper section-wrapper schedule-description-wrapper">
                     <div className="section schedule-description description">
-                        <div className="monday-wrapper">
-                            <p className="monday">
-                                General training - 19:15
-                                <b />
-                                Online training - 18:00
-                            </p>
-                        </div>
-                        <div className="tuesday-wrapper">
-                            <p className="tuesday">
-                                General training - 19:00
-                                <b />
-                                Children training - 18:00
-                            </p>
-                        </div>
-                        <div className="wednesday-wrapper">
-                            <p className="wednesday">
-                                General training - 19:15
-                                <b />
-                                Online training - 18:00
-                            </p>
-                        </div>
-                        <div className="thursday-wrapper">
-                            <p className="thursday">
-                                General training - 19:00
-                                <b />
-                                Children training - 17:00
-                            </p>
-                        </div>
-                        <div className="friday-wrapper">
-                            <p className="friday">
-                                General training - 19:30
-                                <b />
-                                Online training - 18:00
-                            </p>
-                        </div>
-                        <div className="saturday-wrapper">
-                            <p className="saturday">General training - 10:00</p>
-                        </div>
-                        <div className="sunday-wrapper">
-                            <p className="sunday">Relax day</p>
-                        </div>
+                        description <b />
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem velit laboriosam atque? Voluptatem, est quae
+                        asperiores odit minima aut, quas facere ullam voluptatum
+                        in sunt commodi repellat ipsum ex aliquid voluptatibus
+                        quaerat quidem veritatis quam itaque tempora odio sed?
+                        Labore provident nulla vitae tempora ad dolorum sapiente
+                        quidem?
                     </div>
                 </div>
                 <div className="section-wrapper schedule-wrapper">
@@ -57,45 +24,50 @@ export default function SchedulePage() {
                         <div className="days">
                             <ul>
                                 <li className="weekday">
+                                    <p className="weekday-name">Monday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 19:15</div>
+                                        <div>Online training - 18:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Tuesday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 19:00</div>
+                                        <div>Children training - 18:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Wednesday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 19:15</div>
+                                        <div>Online Training - 18:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Thursday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 19:00</div>
+                                        <div>Children training - 18:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Friday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 19:30</div>
+                                        <div>Online training - 18:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Saturday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>General training - 10:00</div>
                                     </div>
                                 </li>
                                 <li className="weekday">
+                                    <p className="weekday-name">Sunday</p>
                                     <div className="hours">
-                                        <div>12:00-14:00</div>
-                                        <div>18:00-20:00</div>
+                                        <div>Relax day</div>
                                     </div>
                                 </li>
                             </ul>
