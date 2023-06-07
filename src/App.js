@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import Schedule from "./components/pages/Schedule";
 import NoMatch from "./components/NoMatch";
 import Footer from "./components/Footer";
+import ContactPage from "./components/pages/Contacts";
 
 export default class App extends Component {
     render() {
@@ -28,6 +29,11 @@ export default class App extends Component {
                             <Route
                                 path="/pages/schedule"
                                 element={<Schedule />}
+                            />
+
+                            <Route
+                                path="/pages/contacts"
+                                element={<ContactPage />}
                             />
                             <Route path="*" element={<NoMatch />} />
                         </Routes>
