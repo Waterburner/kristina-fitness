@@ -1,0 +1,15 @@
+$schedule-section-photo: "#{$assetPath}kristina_8490463045832235450_n.jpg";
+
+.schedule-wrapper {
+    .schedule {
+        .section-wrapper {
+            .section-picture {
+                background: url($schedule-section-photo) no-repeat center center;
+
+                background-size: cover;
+
+                height: 50vw;
+            }
+        }
+    }
+}
