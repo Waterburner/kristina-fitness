@@ -10,6 +10,27 @@ $schedule-section-photo: "#{$assetPath}kristina_8490463045832235450_n.jpg";
 
                 height: 50vw;
             }
+
+            .schedule-description {
+                text-align: center;
+            }
+
+            .schedule {
+                text-align: center;
+                ul,
+                li {
+                    list-style: none;
+                    padding: 0px 0;
+                    margin: 5px 0;
+
+                    p {
+                        margin: 0;
+                    }
+                    .weekday {
+                        background-color: $navbar-background;
+                    }
+                }
+            }
         }
     }
 }
