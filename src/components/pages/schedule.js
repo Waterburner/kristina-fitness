@@ -9,25 +9,47 @@ export default function SchedulePage() {
                 </div>
                 <div className="section-wrapper section-wrapper schedule-description-wrapper">
                     <div className="section schedule-description description">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Dignissimos quisquam repudiandae accusantium
-                        necessitatibus, dolore perspiciatis eum facere ea natus
-                        enim voluptatibus. Illum, vero deleniti exercitationem
-                        nobis dolorem, praesentium qui eveniet odio rem
-                        doloremque magni maxime consectetur ipsa. Saepe fugit
-                        possimus tenetur labore necessitatibus, libero, tempora
-                        provident illum maiores rerum alias iusto quibusdam
-                        aspernatur consequuntur distinctio. Ipsam eius, est
-                        quidem nisi magni sed, deserunt cumque ipsa sapiente
-                        libero debitis culpa provident possimus neque, labore
-                        atque necessitatibus voluptas dolore qui voluptates
-                        recusandae nam quasi? Obcaecati inventore perspiciatis
-                        cumque deserunt! Soluta cumque hic quisquam vitae, a,
-                        asperiores iste eveniet cum eos nam eaque cupiditate
-                        modi tempore tempora error ipsum nobis atque! Accusamus
-                        esse modi asperiores optio, a placeat maiores! Vitae
-                        beatae voluptates nobis dolorum ea! Nisi eligendi
-                        expedita hic voluptates vitae!
+                        <div className="monday-wrapper">
+                            <p className="monday">
+                                General training - 19:15
+                                <b />
+                                Online training - 18:00
+                            </p>
+                        </div>
+                        <div className="tuesday-wrapper">
+                            <p className="tuesday">
+                                General training - 19:00
+                                <b />
+                                Children training - 18:00
+                            </p>
+                        </div>
+                        <div className="wednesday-wrapper">
+                            <p className="wednesday">
+                                General training - 19:15
+                                <b />
+                                Online training - 18:00
+                            </p>
+                        </div>
+                        <div className="thursday-wrapper">
+                            <p className="thursday">
+                                General training - 19:00
+                                <b />
+                                Children training - 17:00
+                            </p>
+                        </div>
+                        <div className="friday-wrapper">
+                            <p className="friday">
+                                General training - 19:30
+                                <b />
+                                Online training - 18:00
+                            </p>
+                        </div>
+                        <div className="saturday-wrapper">
+                            <p className="saturday">General training - 10:00</p>
+                        </div>
+                        <div className="sunday-wrapper">
+                            <p className="sunday">Relax day</p>
+                        </div>
                     </div>
                 </div>
                 <div className="section-wrapper schedule-wrapper">
