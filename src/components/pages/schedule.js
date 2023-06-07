@@ -6,14 +6,14 @@ export default function SchedulePage() {
     return (
         <div className="schedule-wrapper page-wrapper">
             <div className="schedule page">
-                <div className="section-wrapper">
-                    <div className="section section-picture">
-                        {/* cool picture */}
-                    </div>
-                </div>
                 <div className="section-wrapper section-wrapper schedule-description-wrapper">
-                    <div className="section schedule-description description">
-                        General schedule for the following week
+                    <div className="section section-description description">
+                        <h3 className="section-header">General schedule</h3>
+                    </div>
+                    <div className="section-wrapper">
+                        <div className="section section-picture">
+                            {/* cool picture */}
+                        </div>
                     </div>
                 </div>
                 <div className="section-wrapper schedule-wrapper">
