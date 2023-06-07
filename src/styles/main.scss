@@ -1,5 +1,8 @@
 @import "generated.scss";
 
+// helpers
+$assetPath: "../assets/";
+
 // colors
 $navbar-background: gray;
 $navbar-navlist-background: lightgray;
@@ -55,3 +58,5 @@ NavLink {
 @import "navbar.scss";
 
 @import "new.scss";
+
+@import "schedule.scss";
