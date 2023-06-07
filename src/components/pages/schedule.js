@@ -1,11 +1,15 @@
 import React from "react";
 
+// import training_pic from "../../assets/kristina_8490463045832235450_n.jpeg";
+
 export default function SchedulePage() {
     return (
         <div className="schedule-wrapper page-wrapper">
             <div className="schedule page">
                 <div className="section-wrapper">
-                    <div className="section">cool picture</div>
+                    <div className="section section-picture">
+                        {/* cool picture */}
+                    </div>
                 </div>
                 <div className="section-wrapper section-wrapper schedule-description-wrapper">
                     <div className="section schedule-description description">
