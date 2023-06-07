@@ -13,14 +13,7 @@ export default function SchedulePage() {
                 </div>
                 <div className="section-wrapper section-wrapper schedule-description-wrapper">
                     <div className="section schedule-description description">
-                        description <b />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatem velit laboriosam atque? Voluptatem, est quae
-                        asperiores odit minima aut, quas facere ullam voluptatum
-                        in sunt commodi repellat ipsum ex aliquid voluptatibus
-                        quaerat quidem veritatis quam itaque tempora odio sed?
-                        Labore provident nulla vitae tempora ad dolorum sapiente
-                        quidem?
+                        General schedule for the following week
                     </div>
                 </div>
                 <div className="section-wrapper schedule-wrapper">
