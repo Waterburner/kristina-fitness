@@ -8,7 +8,7 @@ export default function ContactPage() {
                     <div className="contacts section">
                         <div className="description-wrapper">
                             <h3 className="description-header">Contacts</h3>
-                            <p className="description">Get in touch</p>
+                            <p className="description">How to get in touch</p>
                         </div>
                         <div className="description-photo-wrapper">
                             <div className="description-photo">
