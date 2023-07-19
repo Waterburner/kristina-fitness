@@ -10,10 +10,6 @@ export default function Navbar() {
         <div className="navbar-wrapper">
             <div className="navbar">
                 <div className="left">
-                    <div className="languages">
-                        <div className="EN">English</div>
-                        <div className="UA"> Українською</div>
-                    </div>
                     <input type="checkbox" id="btnControl" />
                     <label className="btn burger-wrapper" htmlFor="btnControl">
                         <div className="burger">
@@ -75,6 +71,11 @@ export default function Navbar() {
                                 </NavLink>
                             </ul>
                         </div>
+                    </div>
+
+                    <div className="languages">
+                        <div className="EN">English</div>
+                        <div className="UA"> Українською</div>
                     </div>
                 </div>
 
