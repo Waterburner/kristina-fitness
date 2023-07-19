@@ -1,0 +1,96 @@
+// homepage
+$main-photo-section: "#{$assetPath}kristina_main.jpg";
+
+$options-photo1: "#{$assetPath}Kristina22755514368_n.png";
+$options-photo2: "#{$assetPath}Kristina10208_n.png";
+$options-photo3: "#{$assetPath}Kristina000_n.png";
+$options-photo4: "#{$assetPath}Kristina4681_n.png";
+
+.homepage-wrapper {
+    .photo-description {
+        color: $photo-description-color;
+    }
+
+    .photo-sub-description {
+        font-size: 0.7em;
+        color: $photo-sub-description-color;
+    }
+
+    .homepage {
+        .section-wrapper {
+            .section {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .photo-section {
+                height: 700px;
+                background: $darken-the-image,
+                    url($main-photo-section) no-repeat top center;
+                background-size: cover;
+                color: $photo-title-color;
+            }
+
+            .options-section {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 5px;
+                padding: 5px;
+
+                p {
+                    margin-top: 0;
+                    padding-top: 10px;
+                }
+
+                .photo1 {
+                    background: $pre-hover-darken-the-image,
+                        url($options-photo1) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo2 {
+                    background: $pre-hover-darken-the-image,
+                        url($options-photo2) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo3 {
+                    background: $pre-hover-darken-the-image,
+                        url($options-photo3) no-repeat top center;
+                    background-size: cover;
+                }
+                .photo4 {
+                    background: $pre-hover-darken-the-image,
+                        url($options-photo4) no-repeat top center;
+                    background-size: cover;
+                }
+
+                .options-photos {
+                    height: 100vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // &:hover {
+
+                    // }
+                }
+            }
+
+            .review-section {
+                background-color: $navbar-background;
+                padding-top: 15px;
+                .reviews {
+                    padding-top: 10px;
+                    width: 98%;
+                    margin: 2px;
+
+                    h3,
+                    p {
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
