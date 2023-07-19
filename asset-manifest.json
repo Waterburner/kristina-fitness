@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kristina-fitness/static/css/main.5c4c97a7.css",
-    "main.js": "/kristina-fitness/static/js/main.ad53a4e5.js",
+    "main.css": "/kristina-fitness/static/css/main.26f51d4c.css",
+    "main.js": "/kristina-fitness/static/js/main.b9182480.js",
     "static/js/787.2d2105ba.chunk.js": "/kristina-fitness/static/js/787.2d2105ba.chunk.js",
     "static/media/Kristina4681_n.png": "/kristina-fitness/static/media/Kristina4681_n.14bfa72cc2715b77c8a7.png",
     "static/media/kristina.png": "/kristina-fitness/static/media/kristina.4ee0867667efe8fc06b5.png",
@@ -12,12 +12,12 @@
     "static/media/kristina__n.jpg": "/kristina-fitness/static/media/kristina_8490463045832235450_n.840723db81e8ed863bb7.jpg",
     "static/media/kristina_main.jpg": "/kristina-fitness/static/media/kristina_main.6885cc0363024ce40feb.jpg",
     "index.html": "/kristina-fitness/index.html",
-    "main.5c4c97a7.css.map": "/kristina-fitness/static/css/main.5c4c97a7.css.map",
-    "main.ad53a4e5.js.map": "/kristina-fitness/static/js/main.ad53a4e5.js.map",
+    "main.26f51d4c.css.map": "/kristina-fitness/static/css/main.26f51d4c.css.map",
+    "main.b9182480.js.map": "/kristina-fitness/static/js/main.b9182480.js.map",
     "787.2d2105ba.chunk.js.map": "/kristina-fitness/static/js/787.2d2105ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c4c97a7.css",
-    "static/js/main.ad53a4e5.js"
+    "static/css/main.26f51d4c.css",
+    "static/js/main.b9182480.js"
   ]
 }
