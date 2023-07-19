@@ -14,9 +14,26 @@ export default function AboutPage() {
                                 Titles, education, experiences
                             </p>
                         </div>
-                        <div className="description-photo-wrapper">
-                            <div className="description-photo">
-                                cool photo header
+                        <div className="description-picture-wrapper">
+                            <div className="description-picture">
+                                cool photo header <br />
+                                <ul className="description-list">
+                                    <li className="description-list-item">
+                                        European champion at Kyokushin karate
+                                    </li>
+                                    <li className="description-list-item">
+                                        Ukrainian champion at Kyokushin karate
+                                    </li>
+                                    <li className="description-list-item">
+                                        Bachelor degree in sports
+                                    </li>
+                                    <li className="description-list-item">
+                                        Bachelor degree in Law
+                                    </li>
+                                    <li className="description-list-item">
+                                        Karate practitioner since 2003
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
