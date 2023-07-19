@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/kristina-fitness/static/css/main.70e0cc02.css",
-    "main.js": "/kristina-fitness/static/js/main.d492c774.js",
+    "main.css": "/kristina-fitness/static/css/main.5c4c97a7.css",
+    "main.js": "/kristina-fitness/static/js/main.ad53a4e5.js",
     "static/js/787.2d2105ba.chunk.js": "/kristina-fitness/static/js/787.2d2105ba.chunk.js",
     "static/media/Kristina4681_n.png": "/kristina-fitness/static/media/Kristina4681_n.14bfa72cc2715b77c8a7.png",
     "static/media/kristina.png": "/kristina-fitness/static/media/kristina.4ee0867667efe8fc06b5.png",
     "static/media/Kristina000_n.png": "/kristina-fitness/static/media/Kristina000_n.434b3ac9e8e9a70db7c2.png",
     "static/media/Kristina10208_n.png": "/kristina-fitness/static/media/Kristina10208_n.ef1f1185df354cc248d9.png",
+    "static/media/kristina_2938509.png": "/kristina-fitness/static/media/kristina_2938509.8d71e3973b906caec7da.png",
     "static/media/Kristina22755514368_n.png": "/kristina-fitness/static/media/Kristina22755514368_n.9bf41cf767ddfaa4bf53.png",
     "static/media/kristina__n.jpg": "/kristina-fitness/static/media/kristina_8490463045832235450_n.840723db81e8ed863bb7.jpg",
     "static/media/kristina_main.jpg": "/kristina-fitness/static/media/kristina_main.6885cc0363024ce40feb.jpg",
     "index.html": "/kristina-fitness/index.html",
-    "main.70e0cc02.css.map": "/kristina-fitness/static/css/main.70e0cc02.css.map",
-    "main.d492c774.js.map": "/kristina-fitness/static/js/main.d492c774.js.map",
+    "main.5c4c97a7.css.map": "/kristina-fitness/static/css/main.5c4c97a7.css.map",
+    "main.ad53a4e5.js.map": "/kristina-fitness/static/js/main.ad53a4e5.js.map",
     "787.2d2105ba.chunk.js.map": "/kristina-fitness/static/js/787.2d2105ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70e0cc02.css",
-    "static/js/main.d492c774.js"
+    "static/css/main.5c4c97a7.css",
+    "static/js/main.ad53a4e5.js"
   ]
 }
