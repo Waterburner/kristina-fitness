@@ -7,11 +7,17 @@ export default function AboutPage() {
                 <div className="about-me-wrapper section-wrapper">
                     <div className="about-me section">
                         <div className="description-wrapper">
-                            <h3 className="description-header">
+                            <h3 className="description-header english_language">
                                 About Kristina
                             </h3>
-                            <p className="description">
+                            <h3 className="description-header ukrainian_language">
+                                Про Крістіну
+                            </h3>
+                            <p className="description english_language">
                                 Titles, education, experiences
+                            </p>
+                            <p className="description ukrainian_language">
+                                Титули, освіта, досвід
                             </p>
                         </div>
                         <div className="description-picture-wrapper">
