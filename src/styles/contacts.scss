@@ -4,24 +4,9 @@ $contacts-section-picture: "#{$assetPath}kristina.png";
     .contacts {
         .section-wrapper {
             .description-picture-wrapper {
-                background: url($contacts-section-picture) no-repeat center
-                    center;
-
-                background-size: cover;
-
-                height: 50vw;
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .description-picture {
-                    padding: 0 20px;
-                    text-align: center;
-                    color: $photo-text-color;
-                    background-color: black;
-                    background: $darken-the-image;
-                }
+                @include description-picture-wrapper-styles(
+                    $contacts-section-picture
+                );
             }
         }
     }
