@@ -1,19 +1,36 @@
 // about page
-
 $description-photo: "#{$assetPath}kristina_2938509.png";
 
 .about-wrapper {
     .about {
         .about-me-wrapper {
             .about-me {
-                .description-photo-wrapper {
-                    .description-photo {
-                        height: 700px;
+                .description-picture-wrapper {
+                    //     background: url($description-photo) no-repeat center center;
 
-                        background: $pre-hover-darken-the-image,
-                            url($description-photo) no-repeat center center;
-                        background-size: cover;
-                    }
+                    //     background-size: cover;
+
+                    //     height: 80vw;
+
+                    //     display: flex;
+                    //     justify-content: center;
+                    //     align-items: center;
+
+                    //     .description-list {
+                    //         text-align: left;
+                    //     }
+
+                    //     .description-picture {
+                    //         padding: 0 20px;
+                    //         text-align: center;
+                    //         color: $photo-text-color;
+                    //         background-color: black;
+                    //         background: $darken-the-image;
+                    //     }
+
+                    @include description-picture-wrapper-styles(
+                        $description-photo
+                    );
                 }
             }
         }
