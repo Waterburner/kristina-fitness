@@ -1,11 +1,23 @@
-@mixin description-picture-wrapper-styles($photo) {
+@mixin description-picture-wrapper-styles($photo, $height: 50vh) {
     background: url($photo) no-repeat center center;
 
     background-size: cover;
 
-    height: 80vw;
+    height: $height;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .description-list {
+        text-align: left;
+    }
+
+    .description-picture {
+        padding: 0 20px;
+        text-align: center;
+        color: $photo-text-color;
+        background-color: black;
+        background: $darken-the-image;
+    }
 }
